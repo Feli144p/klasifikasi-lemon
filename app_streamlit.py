@@ -9,7 +9,7 @@ st.set_page_config(
 
 model = joblib.load("model_klasifikasi_lemon.joblib")
 
-st.title(":tangerine: Belajar Klasifikasi Lemon")
+st.title(":lemon: Belajar Klasifikasi Lemon")
 st.markdown("Aplikasi machine learning classification untuk memprediksi kualitas lemon")
 
 diameter = st.slider("Diameter", 45.0, 70.0, 55.0)
@@ -29,6 +29,7 @@ if st.button("Prediksi", type="primary"):
 
 st.divider()
 st.caption("Dibuat dengan :lemon: oleh **Feliw Sigam**")
+
 
 
 
